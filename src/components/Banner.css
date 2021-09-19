@@ -1,0 +1,44 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.banner-bg {
+    height: 500px;
+    background: url("https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.15752-9/241525715_187222123485164_6134296005870828886_n.png?_nc_cat=100&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeFd49mQq7MDBaYJ3AmhJVpsysN1e4w72KbKw3V7jDvYpojcusbxqs-DBE9KdVEvgOC3sosTVdBS6tGJYtdk-rRc&_nc_ohc=AJQNRd1BVD8AX9Ykno7&_nc_ht=scontent.fbkk14-1.fna&oh=e9c2b75cfe5e72029442442e4fa2bcd0&oe=616CFF66") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.banner-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.banner-text {
+    color: #fff;
+    text-align: center;
+}
+.banner-btn {
+    background: #fff;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.banner-btn:hover {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .banner-text {
+        padding: 0 2rem;
+    }
+}
